@@ -9,8 +9,8 @@ const NewReplyCommentEmail = ({
   postLink = 'https://blog.krisyan.dev',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
   postImageUrl = 'https://blog.krisyan.dev/og?title=test',
-  userFirstName = 'Cali',
-  userLastName = 'Castle',
+  userFirstName = 'Kris',
+  userLastName = 'Yan',
   userImageUrl = 'https://blog.krisyan.dev/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
