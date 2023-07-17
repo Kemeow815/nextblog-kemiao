@@ -6,7 +6,7 @@ import React from 'react'
 
 import image3 from '~/assets/highlights/highlight-ba.jpg'
 import image6 from '~/assets/highlights/highlight-camera.jpg'
-import image5 from '~/assets/highlights/highlight-roommates.jpg'
+import image5 from '~/assets/highlights/highlight-arona.jpg'
 import image1 from '~/assets/highlights/highlight-what.jpg'
 import image4 from '~/assets/highlights/highlight-yuanhang.jpg'
 import image2 from '~/assets/highlights/highlisht-travel.jpg'
