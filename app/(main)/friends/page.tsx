@@ -1,8 +1,8 @@
 import { type Metadata } from 'next'
 
 import { Projects } from '~/app/(main)/friends/Projects'
-import { Container } from '~/components/ui/Container'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
+import { Container } from '~/components/ui/Container'
 
 const title = '友情链接'
 const description =
