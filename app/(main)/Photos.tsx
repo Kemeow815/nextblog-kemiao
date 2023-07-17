@@ -16,12 +16,12 @@ import image6 from '~/assets/highlights/highlight-camera.jpg'
 
 const images = [image1, image2, image3, image4, image5, image6]
 const alts = [
-  '我的猫躺在我的工作台桌子上的键盘旁边',
-  '我在西雅图城市大学举办的技术演讲',
-  'Xbox 团队给我专属定制的控制器',
-  '佐玩的办公室大厅，背景墙挂着一个黑色的佐玩氛围布',
-  '我举着酒杯看着手机',
-  '我在用 Ableton Push 制作电子乐',
+  '一名女士背对着镜头在街道上行走',
+  '一张有关山脉与云朵的风景照',
+  '阿罗娜站在课桌上眺望远方',
+  '四川绵阳中学的远航楼大酒楼的正门照',
+  '我的同学们瞪着镜头',
+  '一双手正在操作一台SONY α6300微单拍摄河流',
 ]
 
 export function Photos() {
