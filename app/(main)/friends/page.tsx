@@ -6,7 +6,7 @@ import { Container } from '~/components/ui/Container'
 
 const title = '友情链接'
 const description =
-  '欢迎前往YanDao0313/friends互换友链~'
+  '欢迎前往 YanDao0313/Friends 互换友链~'
 export const metadata = {
   title,
   description,
@@ -30,10 +30,10 @@ export default function ProjectsPage() {
         </h1>
         <div className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           欢迎前往此处互换友链：
-          <PeekabooLink href="https://github.com/CaliCastle/cali.so">
+          <PeekabooLink href="https://github.com/YanDao0313/Friends">
             GitHub
           </PeekabooLink><br />
-          愿大家都能互相支持、<b>无限进步</b>。
+          仅展示大陆可正常访问的链接。愿大家都能互相支持、<b>无限进步</b>。
         </div>
       </header>
       <div className="mt-16 sm:mt-20">

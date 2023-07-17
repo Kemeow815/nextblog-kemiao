@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 颜导，
+          我是颜导，
           via  <PeekabooLink href="https://krisyan.dev/">Kris Yan</PeekabooLink>
           ，目前还在探索期，仍在不断地学习与探索，憧憬着在不远的将来能创造出影响世界的产品。
           我热爱开发，设计，创新，享受生活，以及在未知领域中探索。

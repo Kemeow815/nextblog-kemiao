@@ -57,12 +57,11 @@ export default authMiddleware({
     '/api(.*)',
     '/blog(.*)',
     '/confirm(.*)',
-    '/projects',
+    '/friends',
     '/guestbook',
     '/newsletters(.*)',
     '/about',
     '/rss',
     '/feed',
-    '/ama',
   ],
 })
