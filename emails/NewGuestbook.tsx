@@ -6,11 +6,11 @@ import { Button, Heading, Hr, Img, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewGuestbookEmail = ({
-  link = 'https://caliso/guestbook',
+  link = 'https://blog.krisyan.dev/guestbook',
   userFirstName = 'Cali',
   userLastName = 'Castle',
-  userImageUrl = 'https://cali.so/icon.png',
-  commentContent = '*测试评论*\n- Wow wtf\n- Cool',
+  userImageUrl = 'https://blog.krisyan.dev/icon.png',
+  commentContent = '*测试评论*\n- Wow\n- Cool',
 }: {
   link?: string | null
   userFirstName?: string | null

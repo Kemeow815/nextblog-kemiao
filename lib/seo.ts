@@ -1,7 +1,7 @@
 export const seo = {
-  title: 'Cali Castle | 开发者、设计师、细节控、创始人',
+  title: 'Kris Yan | 开发者、UP主、细节控、摸鱼人',
   description:
-    '我叫 Cali，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    '我是 Kris，一名学生，开发者，UP主，同时也是一名细节控，目前还在探索期，仍在不断地学习与探索，憧憬着在不远的将来能创造出影响世界的产品。',
   url: new URL(
     process.env.NODE_ENV === 'production'
       ? 'https://cali.so'

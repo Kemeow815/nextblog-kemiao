@@ -44,41 +44,41 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://blog.krisyan.dev/"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>Kris Yan</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者、UP主、细节控、摸鱼人
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
+                  href="https://blog.krisyan.dev/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/youtube"
+                  href="https://blog.krisyan.dev/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://blog.krisyan.dev/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/bilibili"
+                  href="https://blog.krisyan.dev/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
-                  哔哩哔哩
+                  bilibili
                 </Link>
               </Text>
             </Section>
