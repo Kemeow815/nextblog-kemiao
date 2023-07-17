@@ -2,10 +2,10 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
-import abletiveLogo from '~/assets/company/abletive.png'
-import vvsLogo from '~/assets/company/vvs.png'
-import zolplayLogo from '~/assets/company/zolplay.png'
+import smpLogo from '~/assets/company/SMP.png'
+import kiLogo from '~/assets/company/kronos_Icon_noword_bg_w.png'
+import blogLogo from '~/assets/company/blog.png'
+import dotdevLogo from '~/assets/company/krisyan_dev.jpg'
 
 type Resume = {
   company: string
@@ -16,9 +16,19 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
-    logo: zolplayLogo,
+    company: '个人主页',
+    title: 'krisyan.dev',
+    logo: dotdevLogo,
+    start: '2023',
+    end: {
+      label: '至今',
+      dateTime: new Date().getFullYear(),
+    },
+  },
+  {
+    company: '个人博客',
+    title: 'blog.krisyan.dev / daoblog.top',
+    logo: blogLogo,
     start: '2021',
     end: {
       label: '至今',
@@ -26,25 +36,21 @@ const resume: Resume[] = [
     },
   },
   {
-    company: 'very very spaceship',
-    title: '软件工程师',
-    logo: vvsLogo,
-    start: '2018',
-    end: '2020',
+    company: 'Kronos Insight',
+    title: 'kronosinsight.com',
+    logo: kiLogo,
+    start: '2023',
+    end: {
+      label: '至今',
+      dateTime: new Date().getFullYear(),
+    },
   },
   {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
-    logo: abletiveLogo,
-    start: '2014',
-    end: '2016',
+    company: 'S.M.P',
+    title: 'smp.is-an.app',
+    logo: smpLogo,
+    start: '2022',
+    end: '2023',
   },
 ]
 
