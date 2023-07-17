@@ -2,10 +2,10 @@ import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import smpLogo from '~/assets/company/SMP.png'
-import kiLogo from '~/assets/company/kronos_Icon_noword_bg_w.png'
 import blogLogo from '~/assets/company/blog.png'
 import dotdevLogo from '~/assets/company/krisyan_dev.jpg'
+import kiLogo from '~/assets/company/kronos_Icon_noword_bg_w.png'
+import smpLogo from '~/assets/company/SMP.png'
 
 type Resume = {
   company: string
