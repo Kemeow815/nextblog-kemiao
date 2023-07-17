@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>视频博主</span>
+      <span>写博客</span>
     </span>
   )
 }
