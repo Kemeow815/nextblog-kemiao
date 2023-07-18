@@ -142,11 +142,8 @@ export async function Footer() {
           <Container.Inner>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                <PeekabooLink href="https://beian.miit.gov.cn/">
-                  蜀ICP备2022002434号-1
-                </PeekabooLink>
-                <PeekabooLink href="https://icp.gov.moe/?keyword=20220054">
-                  萌ICP备20220054号
+                <PeekabooLink href="https://icp.gov.moe/?keyword=20230117">
+                  萌ICP备20230117号
                 </PeekabooLink>
               </p>
               </div>
