@@ -25,14 +25,14 @@ function NavItem({
         className={clsxm(
           'relative block whitespace-nowrap px-3 py-2 transition',
           isActive
-            ? 'text-lime-600 dark:text-lime-400'
-            : 'hover:text-lime-600 dark:hover:text-lime-400'
+            ? 'text-orange-600 dark:text-orange-400'
+            : 'hover:text-orange-600 dark:hover:text-orange-400'
         )}
       >
         {children}
         {isActive && (
           <motion.span
-            className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-lime-700/0 via-lime-700/70 to-lime-700/0 dark:from-lime-400/0 dark:via-lime-400/40 dark:to-lime-400/0"
+            className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-orange-700/0 via-orange-700/70 to-orange-700/0 dark:from-orange-400/0 dark:via-orange-400/40 dark:to-orange-400/0"
             layoutId="active-nav-item"
           />
         )}

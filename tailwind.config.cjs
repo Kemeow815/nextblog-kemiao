@@ -340,7 +340,7 @@ module.exports = {
         // dark mode
         'dark-tremor': {
           brand: {
-            faint: '#0B1229', // custom
+            faint: '#29180b', // custom
             muted: '#172554', // blue-950
             subtle: '#1e40af', // blue-800
             DEFAULT: '#3b82f6', // blue-500
@@ -348,7 +348,7 @@ module.exports = {
             inverted: '#030712', // gray-950
           },
           background: {
-            muted: '#131A2B', // custom
+            muted: '#2b1d13', // custom
             subtle: '#1f2937', // gray-800
             DEFAULT: '#111827', // gray-900
             emphasis: '#d1d5db', // gray-300
