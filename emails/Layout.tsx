@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>Kris Yan</strong>
                 </Link>
                 <br />
-                开发者、UP主、细节控、摸鱼人
+                無限進步 @Schale夏萊
               </Text>
               <Text className="text-center">
                 <Link
