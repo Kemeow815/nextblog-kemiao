@@ -36,7 +36,7 @@ export default function Layout({
             <Hr className="mx-0 my-[20px] h-px w-full bg-zinc-100" />
             <Section>
               <Img
-                src={`https://cdn.jsdelivr.net/gh/YanDao0313/Friends/src/me/NEW_PIC.jpg`}
+                src={`https://gzc-dfsdown.mail.ftn.qq.com/1373//xtab9e60-9e20-cf72-6d94-85b12ca0f101?dkey=oECCNhzKu-b03Xaa17kA1YCF1sbpjaO_Pml1PXd1E5r_3pKdivHX9oO9yBKMZbXd_Qgxrbs6AhOzkqWKz4q7mZg&fname=img.jpg`}
                 width="24"
                 height="24"
                 alt="Cali"
