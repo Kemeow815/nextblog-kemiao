@@ -12,7 +12,7 @@ const NewReplyCommentEmail = ({
   userFirstName = 'Kris',
   userLastName = 'Yan',
   userImageUrl = 'https://blog.krisyan.dev/icon.png',
-  commentContent = '*测试评论*\n- Wow wtf\n- Cool',
+  commentContent = '*测试评论*\n- Wow\n- Cool',
 }: {
   postLink?: string | null
   postTitle?: string | null
