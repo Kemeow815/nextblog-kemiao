@@ -36,7 +36,7 @@ export default function Layout({
             <Hr className="mx-0 my-[20px] h-px w-full bg-zinc-100" />
             <Section>
               <Img
-                src={`${emailConfig.baseUrl}/icon.png`}
+                src={`https://cdn.jsdelivr.net/gh/YanDao0313/Friends/src/me/NEW_PIC.jpg`}
                 width="24"
                 height="24"
                 alt="Cali"
