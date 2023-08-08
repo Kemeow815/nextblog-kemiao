@@ -8,6 +8,8 @@ import { url } from '~/lib'
 import { redis } from '~/lib/redis'
 import { getBlogPost } from '~/sanity/queries'
 
+//import { ReactCusdis } from 'react-cusdis'
+
 export const generateMetadata = async ({
   params,
 }: {
@@ -105,5 +107,22 @@ export default async function BlogPage({
     />
   )
 }
+
+//function cusdis() {
+//  return (
+//    <div>
+//      <ReactCusdis
+//        attrs={{
+//          host: 'https://cusdis.com',
+//          appId: 'c0e427ae-3ca5-4e3f-ba35-c032dbe81693',
+//          pageId: 'PAGE_ID',
+//          pageTitle: title,
+//          pageUrl: 'PAGE_URL'
+//        }}
+//      />
+//
+//    </div>
+//  )
+//}
 
 export const revalidate = 60
