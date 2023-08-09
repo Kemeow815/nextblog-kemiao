@@ -3,6 +3,7 @@ export const navigationItems = [
   { href: '/blog', text: '博客' },
   { href: '/friends', text: '友链' },
   { href: '/memos', text: '随记' },
+  { href: '/2nd', text: '知识库' },
   { href: '/guestbook', text: '留言' },
   // { href: '/ama', text: 'AMA 咨询' },
   // { href: '/about', text: '关于' },
