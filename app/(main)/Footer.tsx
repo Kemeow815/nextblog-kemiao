@@ -4,6 +4,7 @@ import React from 'react'
 
 import { CursorClickIcon, UsersIcon } from '~/assets'
 import { PeekabooLink } from '~/components/links/PeekabooLink'
+import { SocialLink } from '~/components/links/SocialLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 import { navigationItems } from '~/config/nav'
@@ -11,7 +12,6 @@ import { db } from '~/db'
 import { env } from '~/env.mjs'
 import { prettifyNumber } from '~/lib/math'
 import { redis } from '~/lib/redis'
-import { SocialLink } from '~/components/links/SocialLink'
 
 import { Newsletter } from './Newsletter'
 

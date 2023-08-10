@@ -10,10 +10,10 @@ import {
   GitHubIcon,
   type IconProps,
   MailIcon,
+  NotbyaiIcon,
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
-  NotbyaiIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
