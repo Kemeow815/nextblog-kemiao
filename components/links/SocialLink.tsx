@@ -13,6 +13,7 @@ import {
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
+  NotbyaiIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
@@ -25,6 +26,7 @@ type Platform =
   | 'bilibili'
   | 'mail'
   | 'rss'
+  | 'notbyai'
 type PlatformInfo = {
   icon: IconType
   platform: Platform
@@ -54,6 +56,7 @@ const iconMapper: { [key: string]: PlatformInfo } = {
   },
   '(?:mailto:)': { icon: MailIcon, platform: 'mail', label: '邮箱地址' },
   '(?:feed.xml)': { icon: AtomIcon, platform: 'rss', label: 'RSS 订阅' },
+  '(?:notbyai.fyi)': { icon: NotbyaiIcon, platform: 'notbyai', label: '人类原创' },
 }
 
 function getIconForUrl(url: string): PlatformInfo | undefined {

@@ -11,6 +11,7 @@ import { db } from '~/db'
 import { env } from '~/env.mjs'
 import { prettifyNumber } from '~/lib/math'
 import { redis } from '~/lib/redis'
+import { SocialLink } from '~/components/links/SocialLink'
 
 import { Newsletter } from './Newsletter'
 
@@ -147,6 +148,13 @@ export async function Footer() {
                 </PeekabooLink>
               </p>
               </div>
+          </Container.Inner>
+          <Container.Inner>
+            <SocialLink
+              href="https://notbyai.fyi/"
+              aria-label="人类原创"
+              platform="notbyai"
+            />
           </Container.Inner>
         </div>
       </Container.Outer>
