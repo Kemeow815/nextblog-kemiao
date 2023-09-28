@@ -98,7 +98,7 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://twitter.com/YanDao0313"
+          href="https://twitter.com/"
           aria-label="我的推特"
           platform="twitter"
         />
