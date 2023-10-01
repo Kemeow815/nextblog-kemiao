@@ -98,7 +98,7 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://twitter.com/"
+          href="https://x.com/imKrisYan"
           aria-label="我的推特"
           platform="twitter"
         />
