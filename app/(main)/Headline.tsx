@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      可能是 <span className="font-mono">&lt;</span>Dev
+      可能是 <span className="font-mono">&lt;</span>OIer
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
