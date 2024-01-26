@@ -14,7 +14,8 @@ const faviconMapper: { [key: string]: string } = {
   '((?:zolplay.cn)|(?:zolplay.com)|(?:cn.zolplay.com))':
     'https://blog.krisyan.dev/favicons/zolplay.png',
   '(?:github.com)': 'https://blog.krisyan.dev/favicons/github.png',
-  '((?:t.co)|(?:twitter.com))': 'https://blog.krisyan.dev/favicons/twitter.png',
+  '((?:t.co)|(?:twitter.com)|(?:x.com))': 
+    'https://blog.krisyan.dev/favicons/twitter.png',
   'coolshell.cn': 'https://blog.krisyan.dev/favicons/coolshell.png',
   'vercel.com': 'https://blog.krisyan.dev/favicons/vercel.png',
   'nextjs.org': 'https://blog.krisyan.dev/favicons/nextjs.png',
