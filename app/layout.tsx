@@ -3,8 +3,8 @@ import './clerk.css'
 import './prism.css'
 
 import { ClerkProvider } from '@clerk/nextjs'
-import { type Metadata } from 'next'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { type Metadata } from 'next'
 
 import { ThemeProvider } from '~/app/(main)/ThemeProvider'
 import { url } from '~/lib'
