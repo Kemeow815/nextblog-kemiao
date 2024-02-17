@@ -4,6 +4,7 @@ import './prism.css'
 
 import { ClerkProvider } from '@clerk/nextjs'
 import { type Metadata } from 'next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { ThemeProvider } from '~/app/(main)/ThemeProvider'
 import { url } from '~/lib'
@@ -82,6 +83,7 @@ export default function RootLayout({
           >
             {children}
           </ThemeProvider>
+          <SpeedInsights/>
         </body>
       </html>
     </ClerkProvider>
