@@ -2,76 +2,21 @@ import Image from 'next/image'
 import React from 'react'
 
 import { BriefcaseIcon } from '~/assets'
-import blogLogo from '~/assets/company/blog.png'
-import dotdevLogo from '~/assets/company/krisyan_dev.jpg'
-import kiLogo from '~/assets/company/kronos_Icon_noword_bg_w.png'
-import smpLogo from '~/assets/company/SMP.png'
 
 type Resume = {
   company: string
   title: string
-  start: string | { label: string; dateTime: number }
-  end: string | { label: string; dateTime: number }
-  logo: StaticImageData
-}
-const resume: Resume[] = [
-  {
-    company: '个人主页',
-    title: 'krisyan.dev',
-    logo: dotdevLogo,
-    start: '2023',
-    end: {
-      label: '至今',
-      dateTime: new Date().getFullYear(),
-    },
-  },
-  {
-    company: '个人博客',
-    title: 'blog.krisyan.dev / daoblog.top',
-    logo: blogLogo,
-    start: '2021',
-    end: {
-      label: '至今',
-      dateTime: new Date().getFullYear(),
-    },
-  },
-  {
-    company: 'Kronos Insight',
-    title: 'kronosinsight.com',
-    logo: kiLogo,
-    start: '2023',
-    end: {
-      label: '至今',
-      dateTime: new Date().getFullYear(),
-    },
-  },
-  {
-    company: 'S.M.P',
-    title: 'smp.is-an.app',
-    logo: smpLogo,
-    start: '2022',
-    end: '2023',
-  },
-]
-
-function getRoleDate(date: Resume['start'] | Resume['end'], label = true) {
-  if (typeof date === 'string') {
-    return date
-  }
-
-  if (label) {
-    return date.label
-  } else {
-    return String(date.dateTime)
-  }
+  start: string
+  end?: string | null
+  logo: string
 }
 
-export function Resume() {
+export function Resume({ resume }: { resume: Resume[] }) {
   return (
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">个人项目</span>
+        <span className="ml-2">工作经历</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -87,11 +32,11 @@ export function Resume() {
               />
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">名称</dt>
+              <dt className="sr-only">公司</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
                 {role.company}
               </dd>
-              <dt className="sr-only">链接</dt>
+              <dt className="sr-only">职位</dt>
               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
                 {role.title}
               </dd>
