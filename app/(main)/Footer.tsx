@@ -117,7 +117,7 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Kris Yan. 基于此仓库：
+                &copy; {new Date().getFullYear()} 克喵爱吃卤面. 基于此仓库：
                 <PeekabooLink href="https://github.com/CaliCastle/cali.so">
                   GitHub
                 </PeekabooLink>
@@ -134,15 +134,6 @@ export async function Footer() {
                 <LastVisitorInfo />
               </React.Suspense>
             </div>
-          </Container.Inner>
-          <Container.Inner>
-            <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-              <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                <PeekabooLink href="https://icp.gov.moe/?keyword=20230117">
-                  萌ICP备20230117号
-                </PeekabooLink>
-              </p>
-              </div>
           </Container.Inner>
           <Container.Inner>
             <SocialLink

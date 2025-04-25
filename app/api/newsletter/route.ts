@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
       await resend.emails.send({
         from: emailConfig.from,
         to: parsed.email,
-        subject: '来自 Kris Yan 的订阅确认',
+        subject: '来自 克喵爱吃卤面 的订阅确认',
         react: ConfirmSubscriptionEmail({
           link: url(`confirm/${token}`).href,
         }),

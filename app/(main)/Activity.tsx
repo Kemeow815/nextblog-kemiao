@@ -38,7 +38,7 @@ export function Activity() {
       enabled:
         typeof window === 'undefined'
           ? false
-          : new URL(window.location.href).hostname === 'blog.krisyan.dev',
+          : new URL(window.location.href).hostname === 'blog.152531.xyz',
     }
   )
   const [open, setOpen] = React.useState(false)
@@ -84,7 +84,7 @@ export function Activity() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                 >
-                  Kris Yan 在使用 {appLabels[app] ?? app}
+                  克喵爱吃卤面 在使用 {appLabels[app] ?? app}
                 </motion.div>
               </Tooltip.Content>
             </Tooltip.Portal>

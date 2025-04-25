@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      可能是 <span className="font-mono">&lt;</span>OIer
+      可能是 <span className="font-mono">&lt;</span>大学牛马
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>做东西</span>
+      <span>资源分享者</span>
     </span>
   )
 }
@@ -80,9 +80,9 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是颜导，
-          via  <PeekabooLink href="https://krisyan.dev/">Kris Yan</PeekabooLink>
-          ，INTP-T，目前还处在探索期，仍在不断地探索与学习。我热爱开发、设计、创新、享受生活，以及在未知领域中探索。
+          我是大二牛马，
+          via  <PeekabooLink href="https://152531.xyz/">克喵爱吃卤面</PeekabooLink>
+          ，INFJ-T，目前还处在探索期，仍在不断地探索与学习。我热爱分享资源、记录生活日记、享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
       <motion.div
@@ -98,33 +98,33 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://x.com/imKrisYan"
+          href="https://x.com/kemiaosw"
           aria-label="我的推特"
           platform="twitter"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://www.youtube.com/channel/UCd6QCusZZ8urv2Owol_KEzA"
           aria-label="我的 YouTube"
           platform="youtube"
-        />
+        /> */}
         <SocialLink
-          href="https://space.bilibili.com/1639079419/"
+          href="https://space.bilibili.com/3546643173477234/"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink
-          href="https://github.com/YanDao0313"
+          href="https://github.com/Kemeow815"
           aria-label="我的 GitHub"
           platform="github"
         />
         <SocialLink
-          href="https://t.me/krisyan"
+          href="https://t.me/KemiaoJun"
           aria-label="我的 TG"
           platform="telegram"
         />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@krisyan.dev"
+          href="mailto:kemiaofx@163.com"
           aria-label="我的邮箱"
           platform="mail"
         />

@@ -15,11 +15,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Kris Yan',
+    template: '%s | Ke Miao',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Kris,Kris Yan,颜导,学生,开发者,设计师,细节控,next.js',
+  keywords: 'KeMiao,Ke Miao,学生,资源分享者,next.js',
   themeColor: [
     { media: '(prefers-color-scheme: dark)', color: '#000212' },
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },
@@ -39,17 +39,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Kris Yan',
+      template: '%s | Ke Miao',
     },
     description: seo.description,
-    siteName: 'Kris Yan',
+    siteName: '喵落阁',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://blog.krisyan.dev',
+    url: 'https://blog.152531.xyz',
   },
   twitter: {
-    site: '@YanDao0313',
-    creator: '@YanDao0313',
+    site: '@kemiaosw',
+    creator: '@kemiaosw',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,

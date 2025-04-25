@@ -44,38 +44,38 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://blog.krisyan.dev/"
+                  href="https://blog.152531.xyz/"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Kris Yan</strong>
+                  <strong>喵落阁</strong>
                 </Link>
                 <br />
-                無限進步 @Schale夏萊
+                奇迹只能一时，命运只是漫长。
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://blog.krisyan.dev/twitter"
+                  href="https://blog.152531.xyz/twitter"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://blog.krisyan.dev/youtube"
+                  href="https://blog.152531.xyz/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://blog.krisyan.dev/github"
+                  href="https://blog.152531.xyz/github"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://blog.krisyan.dev/bilibili"
+                  href="https://blog.152531.xyz/bilibili"
                   className="text-xs text-zinc-600 underline"
                 >
                   bilibili

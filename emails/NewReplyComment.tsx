@@ -6,12 +6,12 @@ import { Button, Heading, Hr, Img, Link, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewReplyCommentEmail = ({
-  postLink = 'https://blog.krisyan.dev',
+  postLink = 'https://blog.152531.xyz',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
-  postImageUrl = 'https://blog.krisyan.dev/og?title=test',
-  userFirstName = 'Kris',
-  userLastName = 'Yan',
-  userImageUrl = 'https://blog.krisyan.dev/icon.png',
+  postImageUrl = 'https://blog.152531.xyz/og?title=test',
+  userFirstName = 'Ke',
+  userLastName = 'Miao',
+  userImageUrl = 'https://blog.152531.xyz/icon.png',
   commentContent = '*测试评论*\n- Wow\n- Cool',
 }: {
   postLink?: string | null
