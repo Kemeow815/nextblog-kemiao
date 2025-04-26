@@ -15,8 +15,8 @@ export default function AboutPage() {
           <p>在2023年初，入驻小绿书，开始接触资源分享。</p>
           <p>年末，在TG开设账号，接触到了更丰富的资源渠道。</p>
           <p>24年初，接触到了频道：
-            <a href="https://t.me/txwl666" target="_blank" rel="noopener noreferrer" className="text-blue-600">[@txwl666 (资源分享)]</a>、
-            <a href="https://t.me/haoruanfenxiang" target="_blank" rel="noopener noreferrer" className="text-blue-600">[@haoruanfenxiang (好软分享)]</a>
+            <a href="https://t.me/txwl666" target="_blank" rel="noopener noreferrer" className="text-blue-600">@txwl666 (资源分享)</a>、
+            <a href="https://t.me/haoruanfenxiang" target="_blank" rel="noopener noreferrer" className="text-blue-600">@haoruanfenxiang (好软分享)</a>
             然后开始分享资源。
           </p>
           <p>11月3日，部署了第一个博客：
