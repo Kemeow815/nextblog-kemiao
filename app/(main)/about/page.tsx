@@ -52,37 +52,39 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-center mt-8">投食！</h2>
         <p>这个博主目前还是个可怜巴巴的学生党，如果你愿意的话可以投喂他！</p>
         <p>大部分应该都会用到站点维护工作上，也有可能优先解决个人存活问题（比如吃饭），适当投喂鸽子可以减少鸽子咕咕咕的概率，投喂博主也会减少博主咕咕咕的概率（Bushi）</p>
-        <div style={{ 
-            display: 'flex', 
-            flexDirection: 'row', 
-            justifyContent: 'center', 
-            alignItems: 'center', 
-            gap: '40px', 
-            margin: '1rem 0'
-        }}>
-        <div style={{ textAlign: 'center' }}>
+<div style={{ 
+    display: 'flex',
+    flexDirection: 'column',  // 改为垂直方向
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '10px',  // 缩小间距
+    margin: '1rem 0'
+}}>
+    <div style={{ textAlign: 'center' }}>
         <strong>支付宝</strong><br />
-            <img 
-                src="https://s2.loli.net/2025/04/13/HYrnNFOKDZPSv4p.jpg" 
-                style={{ 
-                width: '200px',  // 直接设置固定宽度实现尺寸减半
-                height: 'auto', 
-                minWidth: '200px' 
-        }} 
+        <img 
+            src="https://s2.loli.net/2025/04/13/HYrnNFOKDZPSv4p.jpg" 
+            style={{ 
+                width: '200px',
+                height: 'auto',
+                minWidth: '200px',
+                display: 'block'  // 防止图片默认间隙
+            }} 
         />
-        </div>
-        <div style={{ textAlign: 'center' }}>
+    </div>
+    <div style={{ textAlign: 'center' }}>
         <strong>微信</strong><br />
-            <img 
+        <img 
             src="https://s2.loli.net/2025/04/13/HQ4lbFfJkpU2R9V.jpg" 
             style={{ 
-            width: '200px',  // 直接设置固定宽度实现尺寸减半
-            height: 'auto',
-            minWidth: '200px'
-        }} 
+                width: '200px',
+                height: 'auto',
+                minWidth: '200px',
+                display: 'block'  // 防止图片默认间隙
+            }} 
         />
-        </div>
-        </div>
+    </div>
+</div>
 
         <h2 className="text-2xl font-bold text-center mt-8">版权？</h2>
         <div className="space-y-3">
